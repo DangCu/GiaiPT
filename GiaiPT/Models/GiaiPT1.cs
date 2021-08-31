@@ -7,11 +7,13 @@ namespace GiaiPT.Models
 {
     public class GiaiPT1
     {
-        public double GiaiPT(double soA, double soB)
+        public double GiaiPT(float a, float b)
         {
-            float DA = 0f;
-            DA = -b / a;
-            return DA;
+            float nghiem = 0f;
+            nghiem = -b / a;
+
+            return nghiem;
 
         }
+    }
 }

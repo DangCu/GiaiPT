@@ -9,11 +9,19 @@ namespace GiaiPT.Controllers
     public class DemoController : Controller
     {
         // GET: Demo
-        public ActionResult GiaiPhuongTrinh()
+        public ActionResult Giaipt()
         {
             return View();
            
         }
+        [HttpPost]
         
+
+        {
+
+        }
+
+
+
     }
 }
