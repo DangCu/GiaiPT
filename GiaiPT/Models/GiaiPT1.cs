@@ -7,5 +7,7 @@ namespace GiaiPT.Models
 {
     public class GiaiPT1
     {
+       
+
     }
 }
